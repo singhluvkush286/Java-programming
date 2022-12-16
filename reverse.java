@@ -1,6 +1,6 @@
-package com.luvkush;
+//package com.luvkush;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class reverse {
     public static void main(String[] args) {
@@ -8,7 +8,6 @@ public class reverse {
         int rem , rev ;
         rev = 0;
         while( num >0){
-
             rem= num % 10;
             rev = rev * 10+ rem;
             num/=10;
